@@ -1,8 +1,8 @@
 function NavComponent() {
   return (
-    <nav>
-      <img src={require('../../img/Logo.svg').default} alt="Logo" />
-      <ul>
+    <nav className="container">
+      <img src={require('../../img/Logo.svg').default} alt="Logo" className="logo" />
+      <ul className="navbar-menu">
         <li><a href="">Home</a></li>
         <li><a href="">About</a></li>
         <li><a href="">Menu</a></li>
